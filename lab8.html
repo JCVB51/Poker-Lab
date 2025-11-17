@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Poker Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Poker Lab</h1>
+      <button id="shuffleBtn" class="on" type="button" aria-pressed="false">SHUFFLE</button>
+    </header>
+
+    <section class="table">
+      <img id="deckImage" class="deckImage clickable" src="./cards/backs/Blue.png" alt="Deck" draggable="false" />
+      <div id="playerCards" class="playerCards" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script src="./poker.js"></script>
+  <!-- App logic -->
+  <script src="./script.js"></script>
+</body>
+</html>
+

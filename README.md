@@ -15,18 +15,6 @@ It demonstrates object-oriented design and DOM manipulation by allowing users to
 
 ---
 
-## 🧩 Project Structure
-poker-lab/
-│
-├── lab8.html # Main HTML page
-├── style.css # Styling and layout
-├── script.js # Game logic and DOM control
-├── poker.js # Card and Deck class definitions
-└── cards/ # Card image assets
-└── backs/
-├── Blue.png
-└── Red.png
-
 ## 🧠 How It Works
 
 1. **Shuffle**  

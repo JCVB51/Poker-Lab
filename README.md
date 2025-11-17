@@ -16,3 +16,40 @@ It demonstrates object-oriented design and DOM manipulation by allowing users to
 ---
 
 ## 🧩 Project Structure
+poker-lab/
+│
+├── lab8.html # Main HTML page
+├── style.css # Styling and layout
+├── script.js # Game logic and DOM control
+├── poker.js # Card and Deck class definitions
+└── cards/ # Card image assets
+└── backs/
+├── Blue.png
+└── Red.png
+
+## 🧠 How It Works
+
+1. **Shuffle**  
+   Clicking the **SHUFFLE** button resets the deck and clears all drawn cards.
+
+2. **Draw**  
+   Clicking the **deck image** draws the top card and displays it with its suit and rank.
+
+3. **Deck Exhausted**  
+   When the deck runs out, the back image changes to red and the shuffle button reactivates.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – structure and layout  
+- **CSS3** – design and responsiveness  
+- **JavaScript (ES6)** – interactivity and game logic  
+
+---
+
+## 📦 Setup and Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/poker-lab.git

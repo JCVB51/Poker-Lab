@@ -40,4 +40,4 @@ It demonstrates object-oriented design and DOM manipulation by allowing users to
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/poker-lab.git
+   git clone https://github.com/JCVB51/poker-lab.git
